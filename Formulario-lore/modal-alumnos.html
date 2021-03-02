@@ -29,7 +29,7 @@
                 </div>
                 <div class="col-sm-12 col-md-6">
                     <div class="form-group">
-                        <label for="apellido">Apellidp</label>
+                        <label for="apellido">Apellido</label>
                         <input type="text" class="form-control" id="apellido">
                     </div>
                 </div>
@@ -82,33 +82,128 @@
                     </div>
                 </div>
             </div>
-        </form>
-    </div> 
+        </form>        
+        <!-- Button trigger modal -->
+        <label>Responsable 1</label>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#responsable1">
+        <i class="fas fa-edit"></i></button>
 
-    <div class="container">
-            <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-edit"></i></button>
-        
         <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="responsable1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Datos</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
                     <div class="modal-body">
-                    ...
+                        <div class="container-fluid">
+                            <form>
+                                <div class="form-group">
+                                    <label for="apellido">Apellido</label>
+                                    <input type="text" class="form-control" id="apellido">
+                                </div>
+                                <div class="form-group">
+                                    <label for="nombre">Nombre</label>
+                                    <input type="text" class="form-control" id="nombre">
+                                </div>
+                                <div class="form-group">
+                                    <label for="sexo">Género</label>
+                                    <input type="text" class="form-control" id="sexo">
+                                </div>
+                                <div class="form-group">
+                                    <label for="documento">DNI</label>
+                                    <input type="text" class="form-control" id="documento">
+                                </div>
+                                <div class="form-group">
+                                    <label for="domicilio">Domicilio</label>
+                                    <input type="text" class="form-control" id="domicilio">
+                                </div>
+                                <div class="form-group">
+                                    <label for="loc">Localidad</label>
+                                    <input type="text" class="form-control" id="loc">
+                                </div>
+                                <div class="form-group">
+                                    <label for="tel">Teléfono</label>
+                                    <input type="tel" class="form-control" id="tel">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" class="form-control" id="email">
+                                </div>
+                            </form>
+                        </div>
+                    
                     </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
+                    <div class="modal-footer">                        
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Guardar cambios</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+        
+        <!-- Button trigger modal -->
+        <label>Responsable 2</label>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#responsable2">
+        <i class="fas fa-edit"></i></button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="responsable2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Registro</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <form>
+                                <div class="form-group">
+                                    <label for="apellido">Apellido</label>
+                                    <input type="text" class="form-control" id="apellido">
+                                </div>
+                                <div class="form-group">
+                                    <label for="nombre">Nombre</label>
+                                    <input type="text" class="form-control" id="nombre">
+                                </div>
+                                <div class="form-group">
+                                    <label for="sexo">Género</label>
+                                    <input type="text" class="form-control" id="sexo">
+                                </div>
+                                <div class="form-group">
+                                    <label for="documento">DNI</label>
+                                    <input type="text" class="form-control" id="documento">
+                                </div>
+                                <div class="form-group">
+                                    <label for="domicilio">Domicilio</label>
+                                    <input type="text" class="form-control" id="domicilio">
+                                </div>
+                                <div class="form-group">
+                                    <label for="loc">Localidad</label>
+                                    <input type="text" class="form-control" id="loc">
+                                </div>
+                                <div class="form-group">
+                                    <label for="tel">Teléfono</label>
+                                    <input type="tel" class="form-control" id="tel">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" class="form-control" id="email">
+                                </div>
+                            </form>
+                        </div>                    
+                    </div>
+                    <div class="modal-footer">                        
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Guardar cambios</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 </body>
 </html>
